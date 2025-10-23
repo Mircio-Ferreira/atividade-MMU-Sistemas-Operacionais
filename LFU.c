@@ -6,6 +6,7 @@
 
 // helps me know which one to use on the clear function
 #ifdef _WIN32
+    #define CLEAR "cls"
 #else
     #define CLEAR "clear"
 #endif
